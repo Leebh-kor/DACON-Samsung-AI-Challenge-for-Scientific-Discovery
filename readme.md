@@ -11,7 +11,7 @@
 pip install -r requirements.txt
 ```
 
-## Data Preparation
+## Data Preprocessing
 분자구조(SMILES)를 이미지로 변환시킵니다.<br>
 [Data](https://dacon.io/competitions/official/235789/data)를 ./data 경로에 다운로드 후 아래 코드를 실행합니다.
 ```python
@@ -21,7 +21,6 @@ python make_data.py
 SMILES 분자구조를 이미지로 변환시킨 예입니다.<br>
 **SMILES : CCC1CCCCN1C(=O)C(C)OC(=O)c1c(C)oc(-n2cccc2)c1C#N**<br>
 <img src="./sample.png" width="300px" height="300px" title="image sample"/><br>
-
 
 ## Training
 총 7가지 버전의 모델을 학습하였습니다.<br>
